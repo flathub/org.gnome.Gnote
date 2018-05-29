@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.26",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "rename-appdata-file": "gnote.appdata.xml",
@@ -18,10 +18,23 @@
         "cxxflags": "-O2 -g"
     },
     "cleanup": [
-        "/include", "/lib/pkgconfig",
-        "/share/pkgconfig", "/share/aclocal",
-        "/man", "/share/man", "/share/gtk-doc",
-        "*.la", "*.a"
+        "*.a",
+        "*.la",
+        "/include",
+        "/lib/atkmm-1.6",
+        "/lib/cairomm-1.0",
+        "/lib/gdkmm-3.0",
+        "/lib/giomm-2.4",
+        "/lib/glibmm-2.4",
+        "/lib/gtkmm-3.0",
+        "/lib/pangomm-1.4",
+        "/lib/pkgconfig",
+        "/lib/sigc++-2.0",
+        "/man",
+        "/share/aclocal",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig"
     ],
     "modules": [
         {
@@ -32,6 +45,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.0.tar.xz",
                     "sha256": "f843d6346260bfcb4426259e314512b99e296e8ca241d771d21ac64f28298d81"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
@@ -42,6 +58,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.54/glibmm-2.54.1.tar.xz",
                     "sha256": "7cc28c732b04d70ed34f0c923543129083cfb90580ea4a2b4be5b38802bf6a4a"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
@@ -52,6 +71,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/cairomm/1.12/cairomm-1.12.0.tar.xz",
                     "sha256": "a54ada8394a86182525c0762e6f50db6b9212a2109280d13ec6a0b29bfd1afe6"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
@@ -62,6 +84,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/pangomm/2.40/pangomm-2.40.1.tar.xz",
                     "sha256": "9762ee2a2d5781be6797448d4dd2383ce14907159b30bc12bf6b08e7227be3af"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
@@ -72,6 +97,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/atkmm/2.24/atkmm-2.24.2.tar.xz",
                     "sha256": "ff95385759e2af23828d4056356f25376cfabc41e690ac1df055371537e458bd"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
@@ -82,6 +110,9 @@
                     "url": "http://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.22/gtkmm-3.22.2.tar.xz",
                     "sha256": "91afd98a31519536f5f397c2d79696e3d53143b80b75778521ca7b48cb280090"
                 }
+            ],
+            "config-opts": [
+                "--disable-documentation"
             ]
         },
         {
