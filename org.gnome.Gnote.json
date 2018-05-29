@@ -55,8 +55,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.54/glibmm-2.54.1.tar.xz",
-                    "sha256": "7cc28c732b04d70ed34f0c923543129083cfb90580ea4a2b4be5b38802bf6a4a"
+                    "url": "http://ftp.gnome.org/pub/GNOME/sources/glibmm/2.56/glibmm-2.56.0.tar.xz",
+                    "sha256": "6e74fcba0d245451c58fc8a196e9d103789bc510e1eee1a9b1e816c5209e79a9"
                 }
             ],
             "config-opts": [
@@ -120,8 +120,8 @@
             "sources": [
                 {
                 "type": "archive",
-                "url": "https://download.gnome.org/sources/gnote/3.26/gnote-3.26.0.tar.xz",
-                "sha256": "de205ace226a010aba576654db6a8e06eab064522549d3bdd6eb8a0bc9163be9"
+                "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gnote/3.28/gnote-3.28.0.tar.xz",
+                "sha256": "a50d3986c6cc04c7c8215dfed938910611e2d7499f00bfe4f42050ed56a7b783"
                 }
             ],
             "post-install": [
