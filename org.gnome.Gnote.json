@@ -18,10 +18,15 @@
         "cxxflags": "-O2 -g"
     },
     "cleanup": [
-        "/include", "/lib/pkgconfig",
-        "/share/pkgconfig", "/share/aclocal",
-        "/man", "/share/man", "/share/gtk-doc",
-        "*.la", "*.a"
+        "*.a",
+        "*.la",
+        "/include",
+        "/lib/pkgconfig",
+        "/man",
+        "/share/aclocal",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig"
     ],
     "modules": [
         {
