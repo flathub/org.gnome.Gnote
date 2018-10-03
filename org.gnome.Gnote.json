@@ -126,7 +126,8 @@
                 }
             ],
             "post-install": [
-                "mv /app/share/gnome-shell/search-providers/gnote-search-provider.ini /app/share/gnome-shell/search-providers/org.gnome.Gnote.ini"
+                "mv /app/share/gnome-shell/search-providers/gnote-search-provider.ini /app/share/gnome-shell/search-providers/org.gnome.Gnote.ini",
+                "sed -i -e 's/DesktopId=gnote.desktop/DesktopId=org.gnome.Gnote.desktop/' /app/share/gnome-shell/search-providers/org.gnome.Gnote.ini"
             ]
         }
     ]
