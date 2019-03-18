@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "rename-appdata-file": "gnote.appdata.xml",
@@ -24,9 +24,9 @@
             "name": "gnote",
             "sources": [
                 {
-                "type": "archive",
-                "url": "http://ftp.acc.umu.se/pub/GNOME/sources/gnote/3.30/gnote-3.30.0.tar.xz",
-                "sha256": "29832f9e53662eab18036e839a41870048c6de947c1d9e00844edfa3ae0464d3"
+                    "type": "archive",
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.32/gnote-3.32.1.tar.xz",
+                    "sha256": "b8c35188ab45409e3dbb153ac27ecb1029a344dcefff49d3cac4d9fa4c243366"
                 }
             ],
             "post-install": [
