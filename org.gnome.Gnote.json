@@ -27,6 +27,17 @@
                     "type": "archive",
                     "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.32/gnote-3.32.1.tar.xz",
                     "sha256": "b8c35188ab45409e3dbb153ac27ecb1029a344dcefff49d3cac4d9fa4c243366"
+                },
+                {
+                    "type": "patch",
+                    "paths": [
+                        "Add-OARS-and-update-appdata.patch",
+                        "appdata-replace-updatecontact-with-update_contact.patch",
+                        "appdata-simplify-content_rating.patch",
+                        "appdata-add-release-for-3.32.0.patch",
+                        "appdata-specify-translation.patch",
+                        "appdata-add-release-for-3.32.1.patch"
+                    ]
                 }
             ],
             "post-install": [
