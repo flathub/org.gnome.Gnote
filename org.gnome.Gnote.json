@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "rename-appdata-file": "gnote.appdata.xml",
@@ -11,8 +11,7 @@
     "finish-args": [
         "--share=ipc", "--socket=x11",
         "--socket=wayland",
-        "--filesystem=xdg-run/dconf", "--filesystem=~/.config/dconf:ro",
-        "--talk-name=ca.desrt.dconf", "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
+        "--metadata=X-DConf=migrate-path=/org/gnome/gnote/"
     ],
     "cleanup": [
         "*.la",
@@ -20,23 +19,19 @@
     ],
     "modules": [
         "gtkmm.yaml",
+        "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.32/gnote-3.32.1.tar.xz",
-                    "sha256": "b8c35188ab45409e3dbb153ac27ecb1029a344dcefff49d3cac4d9fa4c243366"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.34/gnote-3.34.1.tar.xz",
+                    "sha256": "4f41c49265376d9e9fd8fcb43e13779c1f965411c67969d18b0e12878d70c3cb"
                 },
                 {
                     "type": "patch",
                     "paths": [
-                        "Add-OARS-and-update-appdata.patch",
-                        "appdata-replace-updatecontact-with-update_contact.patch",
-                        "appdata-simplify-content_rating.patch",
-                        "appdata-add-release-for-3.32.0.patch",
-                        "appdata-specify-translation.patch",
-                        "appdata-add-release-for-3.32.1.patch"
+                        "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
             ],
