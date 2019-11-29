@@ -28,6 +28,12 @@
                     "type": "archive",
                     "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.34/gnote-3.34.1.tar.xz",
                     "sha256": "4f41c49265376d9e9fd8fcb43e13779c1f965411c67969d18b0e12878d70c3cb"
+                },
+                {
+                    "type": "patch",
+                    "paths": [
+                        "desktop-add-X-Endless-LaunchMaximized-false.patch"
+                    ]
                 }
             ],
             "post-install": [
