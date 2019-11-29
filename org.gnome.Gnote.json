@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.32",
+    "runtime-version": "3.34",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "rename-appdata-file": "gnote.appdata.xml",
@@ -20,6 +20,7 @@
     ],
     "modules": [
         "gtkmm.yaml",
+        "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
             "sources": [
