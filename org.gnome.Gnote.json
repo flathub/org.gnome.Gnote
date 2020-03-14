@@ -18,7 +18,7 @@
         "/share/man"
     ],
     "modules": [
-        "gtkmm.yaml",
+        "gtkmm.json",
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
