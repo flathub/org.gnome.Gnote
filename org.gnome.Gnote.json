@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "3.36",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "rename-appdata-file": "gnote.appdata.xml",
@@ -18,19 +18,20 @@
         "/share/man"
     ],
     "modules": [
-        "gtkmm.yaml",
+        "gtkmm.json",
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.34/gnote-3.34.1.tar.xz",
-                    "sha256": "4f41c49265376d9e9fd8fcb43e13779c1f965411c67969d18b0e12878d70c3cb"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.36/gnote-3.36.0.tar.xz",
+                    "sha256": "29e503645d84abd94eb3ddadbfe7a63a82b30fd7f3ad01418cd4e4c58e07f336"
                 },
                 {
                     "type": "patch",
                     "paths": [
+                        "Use-XDG_CURRENT_DESKTOP-for-CSD-decision.patch",
                         "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
