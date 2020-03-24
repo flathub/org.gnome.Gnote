@@ -31,6 +31,7 @@
                 {
                     "type": "patch",
                     "paths": [
+                        "Use-XDG_CURRENT_DESKTOP-for-CSD-decision.patch",
                         "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
