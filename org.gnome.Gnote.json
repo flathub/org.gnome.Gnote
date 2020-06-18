@@ -13,6 +13,13 @@
         "--socket=wayland",
         "--metadata=X-DConf=migrate-path=/org/gnome/gnote/"
     ],
+    "add-extensions": {
+        "org.gnome.Gnote.Help": {
+            "directory": "share/help",
+            "bundle": true,
+            "locale-subset": true
+        }
+    },
     "cleanup": [
         "*.la",
         "/share/man"
