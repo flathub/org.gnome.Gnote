@@ -24,12 +24,29 @@
     ],
     "modules": [
         {
+            "name": "mm-common",
+            "sources": [
+                {
+                    "sha256": "a2a99f3fa943cf662f189163ed39a2cfc19a428d906dd4f92b387d3659d1641d",
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.2.tar.xz"
+                }
+            ],
+            "cleanup": [
+                "/share/aclocal",
+                "/share/pkgconfig",
+                "/share/mm-common",
+                "/share/doc",
+                "/bin/mm-common*"
+            ]
+        },
+        {
             "name": "sigc++",
             "sources": [
                 {
-                    "sha256": "b1ca0253379596f9c19f070c83d362b12dfd39c0a3ea1dd813e8e21c1a097a98",
+                    "sha256": "dda176dc4681bda9d5a2ac1bc55273bdd381662b7a6d49e918267d13e8774e1b",
                     "type": "archive",
-                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.2.tar.xz"
+                    "url": "http://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.6.tar.xz"
                 }
             ],
             "config-opts": [
