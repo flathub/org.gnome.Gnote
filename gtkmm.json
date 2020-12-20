@@ -8,6 +8,11 @@
         }
     ],
     "buildsystem": "meson",
+    "config-opts": [
+        "-Dbuild-documentation=false",
+        "-Dbuild-demos=false",
+        "-Dbuild-tests=false"
+    ],
     "cleanup": [
         "*.a",
         "*.la",
@@ -15,9 +20,7 @@
         "/lib/gdkmm-3.0",
         "/lib/gtkmm-3.0",
         "/lib/pkgconfig",
-        "/man",
         "/share/aclocal",
-        "/share/man",
         "/share/pkgconfig"
     ],
     "modules": [
@@ -67,6 +70,10 @@
                 }
             ],
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuild-documentation=false",
+                "-Dbuild-examples=false"
+            ],
             "cleanup": [
                 "*.la",
                 "/include/glibmm-2.4",
@@ -106,6 +113,9 @@
                 }
             ],
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuild-documentation=false"
+            ],
             "cleanup": [
                 "*.la",
                 "/include/pangomm-1.4",
@@ -123,6 +133,9 @@
                 }
             ],
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dbuild-documentation=false"
+            ],
             "cleanup": [
                 "*.la",
                 "/include/atkmm-1.6",
