@@ -1,11 +1,11 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.38",
+    "runtime-version": "40",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
-    "rename-appdata-file": "gnote.appdata.xml",
-    "rename-desktop-file": "gnote.desktop",
+    "rename-appdata-file": "org.gnome.gnote.appdata.xml",
+    "rename-desktop-file": "org.gnome.gnote.desktop",
     "rename-icon": "gnote",
     "copy-icon": true,
     "finish-args": [
@@ -25,19 +25,19 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/3.38/gnote-3.38.0.tar.xz",
-                    "sha256": "fd36351f5fc8b4bf2e3a53d7d39798e0a33f0fc77ff781809577a346b85acfc6"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/40/gnote-40.0.tar.xz",
+                    "sha256": "e224caf8bb433dec9a2258ea2f8739afabde577210e7fb17596614569f7d0b3b"
                 },
                 {
                     "type": "patch",
                     "paths": [
-                        "desktop-add-X-Endless-LaunchMaximized-false.patch"
+                        "desktop-add-X-Endless-LaunchMaximized-false.patch",
+                        "appdata.patch"
                     ]
                 }
             ],
             "post-install": [
-                "mv /app/share/gnome-shell/search-providers/gnote-search-provider.ini /app/share/gnome-shell/search-providers/org.gnome.Gnote.ini",
-                "sed -i -e 's/DesktopId=gnote.desktop/DesktopId=org.gnome.Gnote.desktop/' /app/share/gnome-shell/search-providers/org.gnome.Gnote.ini"
+                "sed -i -e 's/DesktopId=gnote.desktop/DesktopId=org.gnome.Gnote.desktop/' /app/share/gnome-shell/search-providers/org.gnome.Gnote.search-provider.ini"
             ]
         }
     ]
