@@ -1,0 +1,28 @@
+--- Temp/data/appdata/org.gnome.gnote.appdata.xml.in	2021-03-29 12:18:45.911996826 +1100
++++ Temp/org.gnome.gnote.appdata.xml.in	2021-03-29 12:21:45.942576650 +1100
+@@ -28,14 +28,14 @@
+       <li>Translation updates</li>
+     </ul>
+   </release>
+-  <release version="40.rc" date="2021-03-13">
++  <release version="40~rc" date="2021-03-13">
+     <ul>
+       <li>Use reverse-domain convention for naming desktop and search provider files</li>
+       <li>Refactor D-Bus support to reuse the connection established by GtkApplication</li>
+       <li>Update AppData file format</li>
+     </ul>
+   </release>
+-  <release version="40.beta" date="2021-02-21">
++  <release version="40~beta" date="2021-02-21">
+     <ul>
+       <li>Add accelerator Ctrl+D for insert timestamp</li>
+       <li>WebDAV sync no longer uses wdfs</li>
+@@ -43,7 +43,7 @@
+       <li>Fix crash when synchronizing immediately after configuring</li>
+     </ul>
+   </release>
+-  <release version="40.alpha" date="2021-01-10">
++  <release version="40~alpha" date="2021-01-10">
+     <ul>
+       <li>Change shortcut for find first/next to Ctrl-G/Ctrl-Shitf-G</li>
+       <li>Change icons and remove labels from find next/previous</li>
