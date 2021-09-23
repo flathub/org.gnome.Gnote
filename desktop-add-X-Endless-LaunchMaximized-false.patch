@@ -7,8 +7,8 @@ conditions.
 
 Gnote looks ridiculous maximized. Let's not do this.
 
---- Temp/data/org.gnome.gnote.desktop.in.in	2021-03-29 11:43:48.979429328 +1100
-+++ Temp/org.gnome.gnote.desktop.in.in	2021-03-29 11:44:15.248495328 +1100
+--- a/data/org.gnome.Gnote.desktop.in.in	2021-03-29 11:43:48.979429328 +1100
++++ b/data/org.gnome.Gnote.desktop.in.in	2021-03-29 11:44:15.248495328 +1100
 @@ -15,3 +15,4 @@
  X-GNOME-Bugzilla-Product=gnote
  X-GNOME-Bugzilla-Component=main

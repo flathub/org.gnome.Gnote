@@ -1,15 +1,12 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "40",
+    "runtime-version": "41",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
-    "rename-appdata-file": "org.gnome.gnote.appdata.xml",
-    "rename-desktop-file": "org.gnome.gnote.desktop",
-    "rename-icon": "gnote",
-    "copy-icon": true,
     "finish-args": [
-        "--share=ipc", "--socket=x11",
+        "--share=ipc",
+        "--socket=fallback-x11",
         "--socket=wayland",
         "--metadata=X-DConf=migrate-path=/org/gnome/gnote/"
     ],
@@ -25,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/40/gnote-40.0.tar.xz",
-                    "sha256": "e224caf8bb433dec9a2258ea2f8739afabde577210e7fb17596614569f7d0b3b"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/40/gnote-40.2.tar.xz",
+                    "sha256": "7e1b1ec1cccc060269b07427e4360d14be55dc8100272e01714c0cca9e6bd805"
                 },
                 {
                     "type": "patch",
