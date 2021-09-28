@@ -1,17 +1,25 @@
-diff --git a/data/appdata/org.gnome.Gnote.appdata.xml.in b/data/appdata/org.gnome.Gnote.appdata.xml.in
-index 15143c0a..e77d05b9 100644
---- a/data/appdata/org.gnome.Gnote.appdata.xml.in
-+++ b/data/appdata/org.gnome.Gnote.appdata.xml.in
-@@ -14,7 +14,7 @@
-   <_p>Gnote also supports synchronization, making it simple to use it on multiple devices.</_p>
-  </description>
-  <screenshots>
--  <screenshot type="default" width="624" height="351">https://wiki.gnome.org/Apps/Gnote?action=AttachFile&amp;do=get&amp;target=gnote_main_window.png</screenshot>
-+  <screenshot type="default">https://wiki.gnome.org/Apps/Gnote?action=AttachFile&amp;do=get&amp;target=gnote_main_window.png</screenshot>
-  </screenshots>
-  <url type="homepage">https://wiki.gnome.org/Gnote</url>
-  <url type="bugtracker">https://gitlab.gnome.org/GNOME/gnote/issues</url>
-@@ -45,14 +45,14 @@
+diff --git a/data/org.gnome.Gnote.appdata.xml.in b/data/org.gnome.Gnote.appdata.xml.in
+index 570bdc9a..12ce38ac 100644
+--- a/data/org.gnome.Gnote.appdata.xml.in
++++ b/data/org.gnome.Gnote.appdata.xml.in
+@@ -30,14 +30,14 @@
+       <li>Fix size and add more screenshots to appdata</li>
+     </ul>
+   </release>
+-  <release version="41.beta" date="2021-09-06">
++  <release version="41~beta" date="2021-09-06">
+     <ul>
+       <li>Fix a bunch of outdated URLs and instructions</li>
+       <li>Fix metadata license tag</li>
+       <li>Added Indonesian manual</li>
+     </ul>
+   </release>
+-  <release version="41.alpha" date="2021-07-16">
++  <release version="41~alpha" date="2021-07-16">
+     <ul>
+       <li>Build system changed to meson</li>
+       <li>Plugins now stored in plugins folder instead of addins</li>
+@@ -50,14 +50,14 @@
        <li>Translation updates</li>
      </ul>
    </release>
@@ -28,7 +36,7 @@ index 15143c0a..e77d05b9 100644
      <ul>
        <li>Add accelerator Ctrl+D for insert timestamp</li>
        <li>WebDAV sync no longer uses wdfs</li>
-@@ -60,7 +60,7 @@
+@@ -65,7 +65,7 @@
        <li>Fix crash when synchronizing immediately after configuring</li>
      </ul>
    </release>
