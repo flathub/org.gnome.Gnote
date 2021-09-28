@@ -19,11 +19,12 @@
         "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
+            "buildsystem": "meson",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/40/gnote-40.2.tar.xz",
-                    "sha256": "7e1b1ec1cccc060269b07427e4360d14be55dc8100272e01714c0cca9e6bd805"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/41/gnote-41.0.tar.xz",
+                    "sha256": "ffd1aed8a332a6031800590b914433445bc582e435abbef1d771e210143a3200"
                 },
                 {
                     "type": "patch",
