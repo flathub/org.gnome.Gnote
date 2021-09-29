@@ -2,9 +2,9 @@
     "name": "gtkmm",
     "sources": [
         {
-            "sha256": "9beb71c3e90cfcfb790396b51e3f5e7169966751efd4f3ef9697114be3be6743",
+            "sha256": "856333de86689f6a81c123f2db15d85db9addc438bc3574c36f15736aeae22e6",
             "type": "archive",
-            "url": "https://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.4.tar.xz"
+            "url": "https://ftp.gnome.org/pub/GNOME/sources/gtkmm/3.24/gtkmm-3.24.5.tar.xz"
         }
     ],
     "buildsystem": "meson",
@@ -28,9 +28,9 @@
             "name": "mm-common",
             "sources": [
                 {
-                    "sha256": "a2a99f3fa943cf662f189163ed39a2cfc19a428d906dd4f92b387d3659d1641d",
+                    "sha256": "e81596625899aacf1d0bf27ccc2fcc7f373405ec48735ca1c7273c0fbcdc1ef5",
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.2.tar.xz"
+                    "url": "https://download.gnome.org/sources/mm-common/1.0/mm-common-1.0.3.tar.xz"
                 }
             ],
             "cleanup": [
@@ -45,9 +45,9 @@
             "name": "sigc++",
             "sources": [
                 {
-                    "sha256": "dda176dc4681bda9d5a2ac1bc55273bdd381662b7a6d49e918267d13e8774e1b",
+                    "sha256": "d082a2ce72c750f66b1a415abe3e852df2eae1e8af53010f4ac2ea261a478832",
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.6.tar.xz"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/libsigc++/2.10/libsigc++-2.10.7.tar.xz"
                 }
             ],
             "config-opts": [
@@ -64,9 +64,9 @@
             "name": "glibmm",
             "sources": [
                 {
-                    "sha256": "9e1db7d43d2e2d4dfa2771354e21a69a6beec7c446b711619cf8c779e13a581e",
+                    "sha256": "69bd6b5327716ca2f511ab580a969fd7bf0cd2c24ce15e1d0e530592d3ff209c",
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/glibmm/2.66/glibmm-2.66.0.tar.xz"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/glibmm/2.66/glibmm-2.66.1.tar.xz"
                 }
             ],
             "buildsystem": "meson",
@@ -88,9 +88,9 @@
             "name": "cairomm",
             "sources": [
                 {
-                    "sha256": "0126b9cc295dc36bc9c0860d5b720cb5469fd78d5620c8f10cc5f0c07b928de3",
+                    "sha256": "0d37e067c5c4ca7808b7ceddabfe1932c5bd2a750ad64fb321e1213536297e78",
                     "type": "archive",
-                    "url": "https://www.cairographics.org/releases/cairomm-1.14.2.tar.xz"
+                    "url": "https://www.cairographics.org/releases/cairomm-1.14.3.tar.xz"
                 }
             ],
             "config-opts": [
@@ -107,9 +107,9 @@
             "name": "pangomm",
             "sources": [
                 {
-                    "sha256": "d3787d04d6198b606f3efa357b3b452a7140e2a7dee56f9f9ce516d7d5fcec1b",
+                    "sha256": "c885013fe61a4c5117fda395770d507563411c63e49f4a3aced4c9efe34d9975",
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/pangomm/2.46/pangomm-2.46.0.tar.xz"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/pangomm/2.46/pangomm-2.46.1.tar.xz"
                 }
             ],
             "buildsystem": "meson",
@@ -127,9 +127,9 @@
             "name": "atkmm",
             "sources": [
                 {
-                    "sha256": "116876604770641a450e39c1f50302884848ce9cc48d43c5dc8e8efc31f31bad",
+                    "sha256": "a0bb49765ceccc293ab2c6735ba100431807d384ffa14c2ebd30e07993fd2fa4",
                     "type": "archive",
-                    "url": "https://ftp.gnome.org/pub/GNOME/sources/atkmm/2.28/atkmm-2.28.1.tar.xz"
+                    "url": "https://ftp.gnome.org/pub/GNOME/sources/atkmm/2.28/atkmm-2.28.2.tar.xz"
                 }
             ],
             "buildsystem": "meson",
