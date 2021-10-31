@@ -2,23 +2,6 @@ diff --git a/data/org.gnome.Gnote.appdata.xml.in b/data/org.gnome.Gnote.appdata.
 index 570bdc9a..12ce38ac 100644
 --- a/data/org.gnome.Gnote.appdata.xml.in
 +++ b/data/org.gnome.Gnote.appdata.xml.in
-@@ -30,14 +30,14 @@
-       <li>Fix size and add more screenshots to appdata</li>
-     </ul>
-   </release>
--  <release version="41.beta" date="2021-09-06">
-+  <release version="41~beta" date="2021-09-06">
-     <ul>
-       <li>Fix a bunch of outdated URLs and instructions</li>
-       <li>Fix metadata license tag</li>
-       <li>Added Indonesian manual</li>
-     </ul>
-   </release>
--  <release version="41.alpha" date="2021-07-16">
-+  <release version="41~alpha" date="2021-07-16">
-     <ul>
-       <li>Build system changed to meson</li>
-       <li>Plugins now stored in plugins folder instead of addins</li>
 @@ -50,14 +50,14 @@
        <li>Translation updates</li>
      </ul>
