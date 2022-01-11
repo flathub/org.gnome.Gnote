@@ -22,6 +22,10 @@
             "buildsystem": "meson",
             "sources": [
                 {
+                    "x-checker-data": {
+                        "type": "gnome",
+                        "name": "gnote"
+                    },
                     "type": "archive",
                     "url": "https://ftp.gnome.org/pub/GNOME/sources/gnote/41/gnote-41.1.tar.xz",
                     "sha256": "58db2cad13b44167a9efa1544103526c67e6efaa86dafb3a314ea142950e2162"
