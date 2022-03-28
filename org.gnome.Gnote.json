@@ -33,8 +33,7 @@
                 {
                     "type": "patch",
                     "paths": [
-                        "desktop-add-X-Endless-LaunchMaximized-false.patch",
-                        "appdata.patch"
+                        "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
             ],
