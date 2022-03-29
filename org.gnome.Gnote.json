@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "41",
+    "runtime-version": "42",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "finish-args": [
@@ -16,7 +16,6 @@
     ],
     "modules": [
         "gtkmm.json",
-        "shared-modules/intltool/intltool-0.51.json",
         {
             "name": "gnote",
             "buildsystem": "meson",
