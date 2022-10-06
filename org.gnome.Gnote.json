@@ -32,8 +32,7 @@
                 {
                     "type": "patch",
                     "paths": [
-                        "desktop-add-X-Endless-LaunchMaximized-false.patch",
-                        "gnote-appdata.patch"
+                        "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
             ],
