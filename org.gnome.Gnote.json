@@ -1,7 +1,7 @@
 {
     "app-id": "org.gnome.Gnote",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "42",
+    "runtime-version": "43",
     "sdk": "org.gnome.Sdk",
     "command": "gnote",
     "finish-args": [
@@ -26,8 +26,8 @@
                         "name": "gnote"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnote/43/gnote-43.0.tar.xz",
-                    "sha256": "2a5bf84490346fbc3e96cc3285ddd19946ae5ce93d465426010c7b6c051fc161"
+                    "url": "https://download.gnome.org/sources/gnote/43/gnote-43.1.tar.xz",
+                    "sha256": "2f122ec73e44eee942ab1da2e0f273e94dfc46aa49afcc5aa8a2c98e5a646e0f"
                 },
                 {
                     "type": "patch",
