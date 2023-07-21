@@ -26,8 +26,8 @@
                         "name": "gnote"
                     },
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.0.tar.xz",
-                    "sha256": "dc3bd79268fe99d4ed56679ac076cc9d9aaaf62796138d371cf08815f7e6492d"
+                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.1.tar.xz",
+                    "sha256": "6967a5506822320bae19c1eb0bc74516644f9e9eb54edc2c94253eae10c7604d"
                 },
                 {
                     "type": "patch",
