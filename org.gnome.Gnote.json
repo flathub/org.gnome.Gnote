@@ -19,15 +19,21 @@
         {
             "name": "gnote",
             "buildsystem": "meson",
+            "config-opts": [
+                "--buildtype=release"
+            ],
+            "post-install": [
+                "for help_locale_dir in /app/share/help/??*; do mv $help_locale_dir /app/share/locale/${help_locale_dir##*/}/help; ln -s /app/share/locale/${help_locale_dir##*/}/help $help_locale_dir; done"
+            ],
             "sources": [
                 {
+                    "type": "archive",
+                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.1.tar.xz",
+                    "sha256": "6967a5506822320bae19c1eb0bc74516644f9e9eb54edc2c94253eae10c7604d",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnote"
-                    },
-                    "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.1.tar.xz",
-                    "sha256": "6967a5506822320bae19c1eb0bc74516644f9e9eb54edc2c94253eae10c7604d"
+                    }
                 },
                 {
                     "type": "patch",
@@ -35,10 +41,6 @@
                         "desktop-add-X-Endless-LaunchMaximized-false.patch"
                     ]
                 }
-            ],
-            "post-install": [
-                "for help_locale_dir in /app/share/help/??*; do mv $help_locale_dir /app/share/locale/${help_locale_dir##*/}/help; ln -s /app/share/locale/${help_locale_dir##*/}/help $help_locale_dir; done",
-                "sed -i -e 's/DesktopId=gnote.desktop/DesktopId=org.gnome.Gnote.desktop/' /app/share/gnome-shell/search-providers/org.gnome.Gnote.search-provider.ini"
             ]
         }
     ]
