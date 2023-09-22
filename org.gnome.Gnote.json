@@ -28,8 +28,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.1.tar.xz",
-                    "sha256": "6967a5506822320bae19c1eb0bc74516644f9e9eb54edc2c94253eae10c7604d",
+                    "url": "https://download.gnome.org/sources/gnote/44/gnote-44.2.tar.xz",
+                    "sha256": "43580d13f974bd2483c69768a0dba5092dd2c0bf35d04f728a9742c50abff3e2",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnote"
