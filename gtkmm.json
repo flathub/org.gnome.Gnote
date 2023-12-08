@@ -1,5 +1,4 @@
 {
-    "//": "NB: all versions are pinned below a coordinated ABI break",
     "name": "gtkmm",
     "sources": [
         {
@@ -22,8 +21,8 @@
         "*.a",
         "*.la",
         "/include",
-        "/lib/gdkmm-3.0",
-        "/lib/gtkmm-3.0",
+        "/lib/gdkmm-4.0",
+        "/lib/gtkmm-4.0",
         "/lib/pkgconfig",
         "/man",
         "/share/aclocal",
@@ -50,9 +49,9 @@
             ],
             "cleanup": [
                 "*.la",
-                "/include/sigc++-2.0",
+                "/include/sigc++-3.0",
                 "/lib/pkgconfig",
-                "/lib/sigc++-2.0"
+                "/lib/sigc++-3.0"
             ]
         },
         {
@@ -74,10 +73,10 @@
             ],
             "cleanup": [
                 "*.la",
-                "/include/glibmm-2.4",
-                "/include/giomm-2.4",
-                "/lib/glibmm-2.4",
-                "/lib/giomm-2.4",
+                "/include/glibmm-2.68",
+                "/include/giomm-2.68",
+                "/lib/glibmm-2.68",
+                "/lib/giomm-2.68",
                 "/lib/libglibmm_generate_extra_defs*",
                 "/lib/pkgconfig"
             ]
@@ -102,8 +101,8 @@
             ],
             "cleanup": [
                 "*.la",
-                "/include/cairomm-1.0",
-                "/lib/cairomm-1.0",
+                "/include",
+                "/lib/cairomm-1.16",
                 "/lib/pkgconfig"
             ]
         },
@@ -123,8 +122,8 @@
             "buildsystem": "meson",
             "cleanup": [
                 "*.la",
-                "/include/pangomm-1.4",
-                "/lib/pangomm-1.4",
+                "/include/pangomm-2.48",
+                "/lib/pangomm-2.48",
                 "/lib/pkgconfig"
             ]
         },
@@ -144,8 +143,8 @@
             "buildsystem": "meson",
             "cleanup": [
                 "*.la",
-                "/include/atkmm-1.6",
-                "/lib/atkmm-1.6",
+                "/include/atkmm-2.36",
+                "/lib/atkmm-2.36",
                 "/lib/pkgconfig"
             ]
         }
