@@ -1,0 +1,32 @@
+From 98a00db3d9d9a0c17a66e5f93da6122c6c1efe6c Mon Sep 17 00:00:00 2001
+From: Will Thompson <wjt@endlessos.org>
+Date: Mon, 5 Feb 2024 13:43:21 +0000
+Subject: [PATCH 2/2] appdata: Add captions to screenshots
+
+---
+ data/org.gnome.Gnote.appdata.xml.in | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/data/org.gnome.Gnote.appdata.xml.in b/data/org.gnome.Gnote.appdata.xml.in
+index 1a167e95..f7d3aa9b 100644
+--- a/data/org.gnome.Gnote.appdata.xml.in
++++ b/data/org.gnome.Gnote.appdata.xml.in
+@@ -16,12 +16,15 @@
+  <screenshots>
+     <screenshot type="default">
+       <image width="872" height="637">https://wiki.gnome.org/Apps/Gnote?action=AttachFile&amp;do=get&amp;target=gnote_main_window.png</image>
++      <caption>The Gnote main window, showing a list of notebooks and a list of all notes</caption>
+     </screenshot>
+     <screenshot type="default">
+       <image width="872" height="637">https://wiki.gnome.org/Apps/Gnote?action=AttachFile&amp;do=get&amp;target=start_here.png</image>
++      <caption>A sample note, showing a link to another note</caption>
+     </screenshot>
+     <screenshot type="default">
+       <image width="872" height="637">https://wiki.gnome.org/Apps/Gnote?action=AttachFile&amp;do=get&amp;target=using_links.png</image>
++      <caption>A sample note, describing how to create links between notes</caption>
+     </screenshot>
+  </screenshots>
+  <url type="homepage">https://wiki.gnome.org/Gnote</url>
+-- 
+2.39.2
+
