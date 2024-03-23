@@ -35,13 +35,6 @@
                         "type": "gnome",
                         "name": "gnote"
                     }
-                },
-                {
-                    "type": "patch",
-                    "paths": [
-                        "0001-appdata-Update-appdata.patch",
-                        "0002-appdata-Add-captions-to-screenshots.patch"
-                    ]
                 }
             ]
         }
