@@ -29,8 +29,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.gnome.org/sources/gnote/46/gnote-46.0.tar.xz",
-                    "sha256": "86df58a1595b215374691ab44bfc1613b49fdbca7708423a3d5658dcd3a015ed",
+                    "url": "https://download.gnome.org/sources/gnote/46/gnote-46.1.tar.xz",
+                    "sha256": "e3bbf703a58f808dc577d5a256c177c189070b928f4bd59296d0c0dd25f3da99",
                     "x-checker-data": {
                         "type": "gnome",
                         "name": "gnote"
